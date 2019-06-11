@@ -40,7 +40,7 @@ const countReducer = (state = {count: 0}, action) => {
         default:
         return state;
     }
-}
+};
 
 const store = createStore(countReducer);
 
